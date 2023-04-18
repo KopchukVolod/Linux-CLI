@@ -5,25 +5,53 @@ Redirection reroutes standard input, standard output, and standard error.
 
 The common redirection commands are:
 
-- > redirects standard output of a command to a file, overwriting previous content.
-- >> redirects standard output of a command to a file, appending new content to old content.
-- < redirects standard input to a command.
-- | redirects standard output of a command to another command.
-A number of other commands are powerful when combined with redirection commands:
-
-- sort: sorts lines of text alphabetically.
-- uniq: filters duplicate, adjacent lines of text.
-- grep: searches for a text pattern and outputs it.
-- sed : searches for a text pattern, modifies it, and outputs it.
-
-Options modify the behavior of commands:
-- ls -a lists all contents of a directory, including hidden files and directories
-- ls -l lists all contents in long format
-- ls -t orders files and directories by the time they were last modified
-- 
-Multiple options can be used together, like ls -alt
-From the command line, you can also copy, move, and remove files and directories:
-- cp copies files
-- mv moves and renames files
-- rm removes files
-- rm -r removes directories
+alias - створити скорочення для команди
+bunzip2 - розпакувати файл, стиснутий за допомогою bzip2
+bzip2 - стиснути або розпакувати файл за допомогою алгоритму стиснення bzip2
+cat - вивести вміст файлу
+cd - змінити поточну директорію
+chmod - змінити права доступу до файлу або директорії
+chown - змінити власника файлу або директорії
+cp - скопіювати файл або директорію
+curl - взяти вміст веб-сторінки або іншого додатку з мережі
+echo - вивести повідомлення на екран
+export - створити змінну середовища
+find - знайти файл за певними критеріями
+grep - знайти рядки, які містять певні символи або слова
+groupadd - створити нову групу користувачів
+groupdel - видалити групу користувачів
+gunzip - розпакувати файл, стиснутий за допомогою gzip
+gzip - стиснути або розпакувати файл за допомогою алгоритму стиснення gzip
+head - вивести перші рядки файлу
+history - показати історію виконаних команд
+ifconfig - показати конфігурацію мережевого інтерфейсу
+kill - зупинити процес за його ідентифікатором
+less - показати вміст файлу з можливістю прокручування
+locate - пошук файлів на основі їх назви або шляху до них, швидше, ніж за допомогою find.
+ls - вивести список файлів та директорій в поточній директорії
+mkdir - створити нову директорію
+mv - перемістити або перейменувати файл або директорію
+netstat - показати статистику мережевих підключень та портів
+passwd - змінити пароль користувача
+ping - перевірити доступність мережевого пристрою або хосту
+ps - показати список активних процесів
+pwd - вивести поточну директорію
+reboot - перезавантажити систему.
+rm - видалити файл або директорію
+rmdir - видалити порожню директорію
+scp - копіювати файли між локальним та віддаленим комп'ютерами за допомогою протоколу SSH
+service - керувати службами системи
+ssh - встановити захищене з'єднання з іншим комп'ютером за допомогою протоколу SSH
+su - змінити користувача
+sudo - виконати команду в режимі адміністратора
+systemctl - керувати службами системи в системі ініціалізації systemd
+tail - вивести останні рядки файлу
+tar - створити або розпакувати архів
+tar - створити або розпакувати архів з компресією
+top - показати список процесів, які використовують найбільше ресурсів
+touch - створити новий файл
+unzip - розпакувати файл, стиснутий за допомогою zip
+useradd - створити нового користувача
+userdel - видалити користувача
+wget - завантажити файл з Інтернету
+which - вивести повний шлях до виконуваного файлу
